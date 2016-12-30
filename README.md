@@ -1,2 +1,4 @@
-# memory-card-flip [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# memory-card-flip
 > Memory card game in which cards are flipped two at a time until all matches are found.
+
+React experiment created with [Electrode.io](http://www.electrode.io/).
