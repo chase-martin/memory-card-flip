@@ -46,5 +46,9 @@
   "devDependencies": {
     "electrode-archetype-react-app-dev": "^1.5.0",
     "gulp": "^3.9.1"
+  },
+  "engines": {
+    "node": "4.2.x",
+    "npm": "3.10.x"
   }
 }
