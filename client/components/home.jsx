@@ -49,18 +49,22 @@ class Home extends React.Component {
       position: "absolute",
   	  top: "0",
   	  left: "0",
-      animationDelay: "2s"
+      animationDelay: "2s",
+      fontSize: "72px",
+      color: "#333"
     };
     let spanFlipBack = JSON.parse(JSON.stringify(spanFlip));
     spanFlipBack.transform = "rotateY(180deg)";
+    spanFlipBack.background = "linear-gradient(135deg, #eeeeee 0%,#cccccc 100%)";
 
     let spanFlipFront = JSON.parse(JSON.stringify(spanFlip));
     spanFlipFront.zIndex = "2";
     spanFlipFront.transform = "rotateY(0deg)";
-    spanFlipFront.background = "linear-gradient(to bottom, #299a0b 0%,#299a0b 100%)";
+    //spanFlipFront.background = "linear-gradient(to bottom, #299a0b 0%,#299a0b 100%)";
+    spanFlipFront.background = "linear-gradient(135deg, #f1e767 0%,#feb645 100%)";
 
     return (
-      <div>
+      <div style={{maxWidth: "750px", margin: "0 auto"}}>
         {cards.map((card, index) =>
           <div key={index} style={card.match == "match" ? cardMatch : cardShow}
               onMouseDown={props.onFlip.bind(this, index)}
