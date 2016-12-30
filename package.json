@@ -2,7 +2,7 @@
   "name": "memory-card-flip",
   "version": "0.0.1",
   "description": "Memory card game in which cards are flipped two at a time until all matches are found.",
-  "homepage": "https://memory-card-flip.herokuapp.com/",
+  "homepage": "https://github.com/chase-martin/memory-card-flip",
   "author": {
     "name": "chase-martin",
     "email": "chase.martin@gmail.com",
