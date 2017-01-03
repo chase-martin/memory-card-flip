@@ -16,6 +16,7 @@ class Home extends React.Component {
       h: "200px"
     };
     const cardShow = {
+      cursor: "pointer",
       display: "block",
       margin: "20px",
       width: css.w,
@@ -48,6 +49,7 @@ class Home extends React.Component {
       paddingTop: "75px",
       boxSizing: "border-box",
       lineHeight: "25px",
+      webkitBackfaceVisibility: "hidden",
       backfaceVisibility: "hidden",
       position: "absolute",
   	  top: "0",
