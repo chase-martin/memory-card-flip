@@ -2,6 +2,7 @@ import React, {PropTypes} from "react";
 import {connect} from "react-redux";
 //import Notifications from "react-notify-toast";
 import {flipCard, matchCards} from "../actions";
+import Helmet from "react-helmet";
 import {Initializer} from "react-google-analytics";
 const GAInitiailizer = Initializer;
 
@@ -80,6 +81,12 @@ class Home extends React.Component {
           </div>
         )}
         <GAInitiailizer />
+        <Helmet
+            title="Memory Card Flip using Electrode.io"
+            meta={[
+                {"name": "viewport", "content": "user-scalable=no,width=660"}
+            ]}
+        />
       </div>
     );
   }
