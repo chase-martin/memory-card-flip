@@ -2,6 +2,8 @@ import React, {PropTypes} from "react";
 import {connect} from "react-redux";
 //import Notifications from "react-notify-toast";
 import {flipCard, matchCards} from "../actions";
+import {Initializer} from "react-google-analytics";
+const GAInitiailizer = Initializer;
 
 class Home extends React.Component {
 
@@ -77,6 +79,7 @@ class Home extends React.Component {
             </div>
           </div>
         )}
+        <GAInitiailizer />
       </div>
     );
   }
