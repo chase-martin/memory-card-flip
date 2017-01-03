@@ -1,27 +1,13 @@
-# memory card flip [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# memory-card-flip
 > Memory card game in which cards are flipped two at a time until all matches are found.
 
-## Installation
-
-```sh
-$ npm install --save memory card flip
+## Dev
+```
+npm install -g gulp
+gulp dev
 ```
 
-## Usage
+## Heroku
+https://memory-card-flip.herokuapp.com/
 
-```js
-var memoryCardFlip = require('memory card flip');
-
-memoryCardFlip('Rainbow');
-```
-## License
-
-unlicense © [chase-martin]()
-
-
-[npm-image]: https://badge.fury.io/js/memory card flip.svg
-[npm-url]: https://npmjs.org/package/memory card flip
-[travis-image]: https://travis-ci.org/chase-martin/memory card flip.svg?branch=master
-[travis-url]: https://travis-ci.org/chase-martin/memory card flip
-[daviddm-image]: https://david-dm.org/chase-martin/memory card flip.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/chase-martin/memory card flip
+React experiment created with [Electrode.io](http://www.electrode.io/).
